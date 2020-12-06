@@ -1,7 +1,7 @@
 'use script';
 
 const checkForSpam = function (message) {
-    let messageForCheck = message.toLowerCase();
+    const messageForCheck = message.toLowerCase();
     return messageForCheck.includes('spam') || messageForCheck.includes('sale');
 };
 

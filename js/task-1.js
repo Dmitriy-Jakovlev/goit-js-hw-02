@@ -1,9 +1,9 @@
 'use script';
 
 const logItems = function (array) {
-    let index = 1;
+    let index = 0;
     for (const item of array) {
-        console.log(`${index} - ${item}`);
+        console.log(`${index + 1} - ${item}`);
         index += 1;
     }
 }
