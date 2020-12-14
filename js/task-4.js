@@ -1,4 +1,4 @@
-'use script';
+"use strict";
 
 const formatString = string => string.length > 40 ? `${string.slice(0, 41)}...` : string;
 

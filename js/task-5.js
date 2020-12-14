@@ -1,4 +1,4 @@
-'use script';
+"use strict";
 
 const checkForSpam = function (message) {
     const messageForCheck = message.toLowerCase();

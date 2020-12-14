@@ -1,4 +1,4 @@
-'use script';
+"use strict";
 
 const logItems = function (array) {
     let index = 0;

@@ -1,4 +1,4 @@
-'use script';
+"use strict";
 
 const findLongestWord = function(string) {
     let words = string.split(' ');
